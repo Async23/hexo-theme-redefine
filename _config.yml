@@ -144,7 +144,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#fff" # light mode
+    light: "#d1d1b6" # light mode
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
   text_style: 
@@ -190,9 +190,9 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#689cf3"  #right side
-    right: "#f8964f" #left side 
-    transparency: 10 #percent (10-99)
+    left: "#ffffff"
+    right: "#689cf3"
+    transparency: 70 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
     home: 1500px #home page
@@ -356,7 +356,9 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      # serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      # serverUrl: https://hexowalinecommenttest.vercel.app # Waline server URL. e.g. https://example.example.com
+      serverUrl: http://192.168.8.128:8360 # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
