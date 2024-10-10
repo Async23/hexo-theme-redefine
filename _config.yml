@@ -11,7 +11,7 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: "journey"
+  title: "-旅-"
   # Author name
   author: sound_kanade
   # Site URL
@@ -192,11 +192,11 @@ navbar:
   color:
     left: "#689cf3"  #right side
     right: "#f8964f" #left side 
-    transparency: 70 #percent (10-99)
+    transparency: 10 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
-    home: 2000px #home page
-    pages: 2000px #other pages
+    home: 1500px #home page
+    pages: 1500px #other pages
   # Navbar links
   links:
     Home: 
@@ -394,7 +394,7 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  runtime: true # show website running time or not
+  runtime: false # show website running time or not
   # Icon in footer, write fontawesome icon code here
   # icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   icon: <i class="fa-regular fa-dragon"></i>
@@ -472,13 +472,13 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
-  provider: npmmirror # npmmirror, zstatic, sustech, cdnjs, jsdelivr, unpkg, custom
+  provider: aliyun  # npmmirror, zstatic, sustech, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme
-  custom_url: 
+  custom_url: http://all.megumiai.com.w.kunlunaq.com/hexo-theme-redefine/${version}/source/${path}
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # DEVELOPER MODE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
