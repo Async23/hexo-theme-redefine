@@ -124,9 +124,9 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    # light: /images/wallhaven-wqery6-light.webp # light mode
-    light: /images/sousou no frieren 2x 1.jpg # light mode
-    dark: /images/sousou no frieren 2x 1.jpg # dark mode
+    # light: /images/sousou no frieren 2x 1.jpg # light mode
+    light: /images/Haru-100.jpg
+    dark: /images/Haru-100.jpg
   # Home banner title
   title: "||:"
   # Home banner subtitle
@@ -144,8 +144,9 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#d1d1b6" # light mode
-    dark: "#d1d1b6" # dark mode
+    # light: "#d1d1b6" # light mode
+    light: "#2f4f4f" # light mode
+    dark: "#2f4f4f" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
@@ -232,7 +233,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -363,6 +364,7 @@ comment:
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
       reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
+      copyright: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
       clientID: # GitHub Application Client ID
