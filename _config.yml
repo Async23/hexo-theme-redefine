@@ -203,12 +203,12 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    Archives: 
-      path: /archives 
-      icon: fa-regular fa-archive # can be empty
-    Status: 
-      path: https://status.ohevan.com/
-      icon: fa-regular fa-chart-bar
+    # Archives: 
+    #   path: /archives 
+    #   icon: fa-regular fa-archive # can be empty
+    # Status: 
+    #   path: https://status.ohevan.com/
+    #   icon: fa-regular fa-chart-bar
     About:  # 一级菜单栏名称
       icon: fa-regular fa-user # Fontawesome图标名称（可选）
       submenus: # 二级菜单栏
@@ -223,12 +223,12 @@ navbar:
     tags:
       icon: fa-solid fa-tags
       path: /tags/
-    Links: 
-      icon: fa-regular fa-link
-      submenus:
-        Link1: /link1
-        Link2: /link2
-        Link3: /link3
+    # Links: 
+    #   icon: fa-regular fa-link
+    #   submenus:
+    #     Link1: /link1
+    #     Link2: /link2
+    #     Link3: /link3
     # ...... # you can add more
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
@@ -271,7 +271,7 @@ home:
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    limit: 10  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
